@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[/**
+* @class ${1:nameSpace}.store.${2:nameClass}
+* @extends Ext.data.Store
+* ${3:description}
+**/
+Ext.define('${1:nameSpace}.store.${2:nameClass}', {
+    extend: 'Ext.data.Store',
+    config: {
+		model: '${4}',
+		proxy: {
+			type: '${5:jsonp}',
+			url: '${6}',
+			reader: {
+				type: '${7:json}',
+				rootProperty: 'data'
+			}
+		}
+	}
+});
+]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>definestore</tabTrigger>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[/**
+* @class ${1:nameSpace}.${2:nameClass}
+* @extends ${3:extendsClass}
+* ${4:description}
+**/
+Ext.define('${1:nameSpace.}.${2:nameClass}', {
+    extend: '${3:extendsClass}',
+    requires: [
+    ],
+    config: {
+        ${5:configuration}
+    }
+});]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>define</tabTrigger>
+</snippet>
