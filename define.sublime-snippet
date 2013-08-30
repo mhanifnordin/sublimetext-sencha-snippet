@@ -9,7 +9,7 @@ Ext.define('${1:nameSpace.}.${2:nameClass}', {
     requires: [
     ],
     config: {
-        ${5:configuration}
+        ${0:configuration}
     }
 });]]></content>
     <scope>source.js</scope>

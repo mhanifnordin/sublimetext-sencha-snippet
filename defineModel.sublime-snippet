@@ -6,10 +6,12 @@
 **/
 Ext.define('${1:nameSpace}.model.${2:nameClass}', {
     extend: 'Ext.data.Model',
+    requires: [
+    ],
     config: {
-        fields: [
-            {$1}
-        ]
+        fields: [{
+        	$0
+        }]
     }
 });
 ]]></content>

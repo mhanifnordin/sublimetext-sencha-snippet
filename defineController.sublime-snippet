@@ -6,13 +6,15 @@
 **/
 Ext.define('${1:nameSpace}.controller.${2:nameClass}', {
     extend: 'Ext.app.Controller',
+    requires: [
+    ],
     config: {
         refs: {
         },
         control: {
         },
 
-    $4
+    $0
     }
 });
 ]]></content>

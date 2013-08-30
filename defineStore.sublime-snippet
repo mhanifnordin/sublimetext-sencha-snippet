@@ -6,6 +6,8 @@
 **/
 Ext.define('${1:nameSpace}.store.${2:nameClass}', {
     extend: 'Ext.data.Store',
+    requires: [
+    ],
     config: {
 		model: '${4}',
 		proxy: {
@@ -13,7 +15,7 @@ Ext.define('${1:nameSpace}.store.${2:nameClass}', {
 			url: '${6}',
 			reader: {
 				type: '${7:json}',
-				rootProperty: 'data'
+				rootProperty: '${0:data}'
 			}
 		}
 	}
