@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[/**
+ * @class ${1:nameSpace}.view.${2:nameClass}
+ * @extends Ext.navigation.View
+ * ${3:description}
+ **/
+Ext.define('${1:nameSpace.}.view.${2:nameClass}', {
+    extend: 'Ext.navigation.View',
+    requires: [
+    	'Ext.dataview.List',
+		'Ext.plugin.ListPaging'
+    ],
+    xtype: '${4:view name}',
+    config: {
+        title: '${5}',
+        styleHtmlContent: true,
+        itemTpl: [
+        	'${6:varName}'
+        ],
+        store: '${7}',
+        action: '${8}',
+        plugins: [{
+			autoPaging: false,
+			type: 'listpaging'
+		}]
+    }
+});]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>definelist</tabTrigger>
+</snippet>

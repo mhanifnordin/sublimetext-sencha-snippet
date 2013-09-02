@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[/**
+ * @class ${1:nameSpace}.view.${2:nameClass}
+ * @extends Ext.Carousel
+ * ${3:description}
+ **/
+Ext.define('${1:nameSpace.}.view.${2:nameClass}', {
+    extend: 'Ext.Carousel',
+    requires: [
+    ],
+    xtype: '${4:view name}',
+    config: {
+        items: [{
+            style: 'background:blue'
+        }]
+    }
+});]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>definecar</tabTrigger>
+</snippet>
