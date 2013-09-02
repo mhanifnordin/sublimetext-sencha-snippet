@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[//Using Ext.Container
+xtype: 'titlebar',
+docked: '${1:top}',
+title: '${2:Put title here!}',
+items: [{
+	iconCls: '${3:add}',
+	align: 'left'
+}, {
+	iconCls: '${4:home}',
+	align: 'right'
+}]
+]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>titlebar</tabTrigger>
+</snippet>

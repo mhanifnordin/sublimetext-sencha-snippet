@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[/**
-* @class ${1:nameSpace}.model.${2:nameClass}
-* @extends Ext.data.Model
-* ${3:description}
-**/
+ * @class ${1:nameSpace}.model.${2:nameClass}
+ * @extends Ext.data.Model
+ * ${3:description}
+ **/
 Ext.define('${1:nameSpace}.model.${2:nameClass}', {
     extend: 'Ext.data.Model',
     requires: [

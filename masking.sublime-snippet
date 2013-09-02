@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+masked: {
+	xtype: 'loadmask',
+	message: '${1}',
+	indicator: ${2:false}
+}
+]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>masking</tabTrigger>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[//Ext.Video
+xtype: 'video',
+url: '${1:vid/test.mov}',
+posterUrl: '${2:test.jpg}'
+]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>video</tabTrigger>
+</snippet>

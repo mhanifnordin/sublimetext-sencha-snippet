@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[/**
+ * @class ${1:nameSpace}.profile.${2:nameClass}
+ * @extends Ext.app.Profile
+ * ${5}.
+ **/
+Ext.define('${1:nameSpace}.profile.${2:nameClass}', {
+    extend: 'Ext.app.Profile',
+    config: {
+        name: '${3}',
+        models: [
+        ],
+        stores: [
+        ],
+        controllers: [
+        ],
+        views: [
+        ]
+    },
+    isActive: function() {
+        return Ext.os.is.${4};
+    },
+    launch: function() {
+        Ext.Viewport.add({
+            xtype: 'main'
+        });
+        Ext.fly('appLoadingIndicator').destroy();
+    }
+});
+]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>profile</tabTrigger>
+</snippet>

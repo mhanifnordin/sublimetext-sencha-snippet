@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[//Using Ext.Container
+layout: 'vbox',
+items: [{
+	${1}
+}]
+}
+]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>vbox</tabTrigger>
+</snippet>

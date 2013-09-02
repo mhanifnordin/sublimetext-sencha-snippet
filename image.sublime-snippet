@@ -1,9 +1,8 @@
 <snippet>
     <content><![CDATA[
-items: [{
-	$0
-}]
+xtype: 'image',
+src: '${1:img/test.jpg}'
 ]]></content>
     <scope>source.js</scope>
-    <tabTrigger>items</tabTrigger>
+    <tabTrigger>image</tabTrigger>
 </snippet>

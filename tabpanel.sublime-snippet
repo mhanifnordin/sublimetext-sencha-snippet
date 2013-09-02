@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[/**
+ * @class ${1:nameSpace}.view.${2:nameClass}
+ * @extends 'Ext.tab.Panel'
+ * ${3:description}
+ **/
+Ext.define('${1:nameSpace.}.view.${2:nameClass}', {
+    extend: 'Ext.tab.Panel',
+    requires: [
+    ],
+    config: {
+        ${0:configuration}
+    }
+});]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>definetab</tabTrigger>
+</snippet>

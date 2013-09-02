@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[//Using Ext.ActionSheet
+text: '${1:Click Me!}',
+ui  : '${2:normal|back|forward|action|decline|confirm}'
+]]></content>
+    <scope>source.js</scope>
+    <tabTrigger>action</tabTrigger>
+</snippet>
