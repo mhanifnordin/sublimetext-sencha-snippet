@@ -9,6 +9,8 @@ Ext.define('${1:nameSpace}.store.${2:nameClass}', {
     requires: [
     ],
     config: {
+    	autoLoad: true,
+		pageSize: 5,
 		model: '${4}',
 		proxy: {
 			type: '${5:jsonp}',
