@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
-var ${2:z} = Ext.ComponentQuery.query('${1}');
+var ${2:z} = Ext.ComponentQuery.query('${1:selector}');
 ]]></content>
     <scope>source.js</scope>
+    <description>Get component using query</description>
     <tabTrigger>getquery</tabTrigger>
 </snippet>

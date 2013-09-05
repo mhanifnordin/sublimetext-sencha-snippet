@@ -5,5 +5,6 @@ config: {
 }
 ]]></content>
     <scope>source.js</scope>
+    <description>Component configuration</description>
     <tabTrigger>config</tabTrigger>
 </snippet>

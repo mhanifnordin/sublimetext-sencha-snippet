@@ -3,5 +3,6 @@
 value: '$1',
 ]]></content>
     <scope>source.js</scope>
+    <description>Field value</description>
     <tabTrigger>value</tabTrigger>
 </snippet>

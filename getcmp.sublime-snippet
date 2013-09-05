@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
-var ${2:x} = Ext.getCmp('${1}');
+var ${2:x} = Ext.getCmp('${1:id}');
 ]]></content>
     <scope>source.js</scope>
+    <description>Get component using Id</description>
     <tabTrigger>getcmp</tabTrigger>
 </snippet>

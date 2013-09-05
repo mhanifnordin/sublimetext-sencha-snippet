@@ -13,5 +13,6 @@ Ext.define('${1:nameSpace.}.view.${2:nameClass}', {
     }
 });]]></content>
     <scope>source.js</scope>
+    <description>Define Tab class</description>
     <tabTrigger>definetab</tabTrigger>
 </snippet>

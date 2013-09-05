@@ -3,5 +3,6 @@
 label: '$1',
 ]]></content>
     <scope>source.js</scope>
+    <description>Form label</description>
     <tabTrigger>label</tabTrigger>
 </snippet>

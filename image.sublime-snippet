@@ -4,5 +4,6 @@ xtype: 'image',
 src: '${1:img/test.jpg}'
 ]]></content>
     <scope>source.js</scope>
+    <description>Ext.Img</description>
     <tabTrigger>image</tabTrigger>
 </snippet>

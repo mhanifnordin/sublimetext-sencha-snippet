@@ -3,5 +3,6 @@
 iconCls: '${1:home}',
 ]]></content>
     <scope>source.js</scope>
+    <description>Icon class</description>
     <tabTrigger>icon</tabTrigger>
 </snippet>

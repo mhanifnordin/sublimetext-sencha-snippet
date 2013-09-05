@@ -19,5 +19,6 @@ Ext.define('${1:nameSpace}.controller.${2:nameClass}', {
 });
 ]]></content>
     <scope>source.js</scope>
+    <description>Define Controller class</description>
     <tabTrigger>definecontrol</tabTrigger>
 </snippet>

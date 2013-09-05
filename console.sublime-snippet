@@ -3,5 +3,6 @@
 console.log('${1:test}');
 ]]></content>
     <scope>source.js</scope>
+    <description>Log:Test</description>
     <tabTrigger>con</tabTrigger>
 </snippet>

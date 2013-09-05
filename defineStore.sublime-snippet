@@ -24,5 +24,6 @@ Ext.define('${1:nameSpace}.store.${2:nameClass}', {
 });
 ]]></content>
     <scope>source.js</scope>
+    <description>Define Store class</description>
     <tabTrigger>definestore</tabTrigger>
 </snippet>

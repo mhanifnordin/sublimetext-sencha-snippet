@@ -11,5 +11,6 @@ slots: [{
 }]
 ]]></content>
     <scope>source.js</scope>
+    <description>Multiple scrollable selection</description>
     <tabTrigger>picker</tabTrigger>
 </snippet>

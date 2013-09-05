@@ -28,5 +28,6 @@ Ext.define('${1:nameSpace.}.view.${2:nameClass}', {
     }
 });]]></content>
     <scope>source.js</scope>
+    <description>Define List class</description>
     <tabTrigger>definelist</tabTrigger>
 </snippet>

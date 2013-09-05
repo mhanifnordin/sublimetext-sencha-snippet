@@ -16,5 +16,6 @@ Ext.define('${1:nameSpace.}.view.${2:nameClass}', {
     }
 });]]></content>
     <scope>source.js</scope>
+    <description>Define Carousel class</description>
     <tabTrigger>definecar</tabTrigger>
 </snippet>

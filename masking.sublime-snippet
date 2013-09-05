@@ -7,5 +7,6 @@ masked: {
 }
 ]]></content>
     <scope>source.js</scope>
+    <description>Load a masking display</description>
     <tabTrigger>masking</tabTrigger>
 </snippet>

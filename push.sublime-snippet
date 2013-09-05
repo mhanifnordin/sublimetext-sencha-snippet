@@ -5,5 +5,6 @@ ${1:view}.push({
 });
 ]]></content>
     <scope>source.js</scope>
+    <description>Put a new view into navigation view</description>
     <tabTrigger>push</tabTrigger>
 </snippet>

@@ -13,5 +13,6 @@ Ext.define('${1:nameSpace.}.${2:nameClass}', {
     }
 });]]></content>
     <scope>source.js</scope>
+    <description>Define a free class</description>
     <tabTrigger>define</tabTrigger>
 </snippet>

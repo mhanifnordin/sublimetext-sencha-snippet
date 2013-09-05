@@ -3,5 +3,6 @@
 store: '$1',
 ]]></content>
     <scope>source.js</scope>
+    <description>Declare name for used store</description>
     <tabTrigger>store</tabTrigger>
 </snippet>

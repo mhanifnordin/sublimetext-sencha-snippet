@@ -12,5 +12,6 @@ items: [{
 }]
 ]]></content>
     <scope>source.js</scope>
+    <description>Topbar components</description>
     <tabTrigger>titlebar</tabTrigger>
 </snippet>

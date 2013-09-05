@@ -3,5 +3,6 @@
 ${1:view}.pop();
 ]]></content>
     <scope>source.js</scope>
+    <description>Remove current active view</description>
     <tabTrigger>pop</tabTrigger>
 </snippet>
