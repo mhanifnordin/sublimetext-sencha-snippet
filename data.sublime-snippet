@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+data: [{
+	$1: '${2:value}'
+}]
+]]></content>
+    <scope>source.js</scope>
+    <description>Data for List's item</description>
+    <tabTrigger>data</tabTrigger>
+</snippet>
