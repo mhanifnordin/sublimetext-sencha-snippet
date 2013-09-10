@@ -4,10 +4,10 @@ xtype: 'titlebar',
 docked: '${1:top}',
 title: '${2:Put title here!}',
 items: [{
-	iconCls: '${3:add}',
+	iconCls: '${3:home}',
 	align: 'left'
 }, {
-	iconCls: '${4:home}',
+	iconCls: '${4:add}',
 	align: 'right'
 }]
 ]]></content>

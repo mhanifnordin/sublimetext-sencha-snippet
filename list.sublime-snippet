@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+items: [{
+    title: '',
+    styleHtmlContent: true,
+    itemTpl: [
+        '{${1:varName}}'
+    ],
+    data: [{
+        ${1:varName}: '${2:value}'
+    }, {
+        $0
+    }]
+}]
+]]></content>
+    <scope>source.js</scope>
+    <description>Create List (xtype)</description>
+    <tabTrigger>list</tabTrigger>
+</snippet>
