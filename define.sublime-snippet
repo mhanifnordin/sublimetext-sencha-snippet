@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[/**
- * @class ${1:nameSpace}.${2:nameClass}
- * @extends ${3:extendsClass}
- * ${4:description}
+ * @class ${1:nameSpace}.${2:nameClass}.${3:nameObject}
+ * @extends ${4:extendsClass}
+ * ${5:description}
  **/
-Ext.define('${1:nameSpace.}.${2:nameClass}', {
-    extend: '${3:extendsClass}',
+Ext.define('${1:nameSpace.}.${2:nameClass}.${3:nameObject}', {
+    extend: '${4:extendsClass}',
     requires: [
     ],
     config: {
