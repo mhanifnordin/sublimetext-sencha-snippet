@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+xtype: 'radiofield',
+name: ${1:color},
+value: ${2:red},
+label: ${3:red},
+checked: 'true'
+]]></content>
+    <scope>source.js</scope>
+    <description>radio button</description>
+    <tabTrigger>radio</tabTrigger>
+</snippet>
