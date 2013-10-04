@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
-xtype: 'radiofield',
+xtype: 'checkboxfield',
 name: '${1:color}',
 label: '${2:red}',
 value: '${3:red}',
 checked: 'true'
 ]]></content>
     <scope>source.js</scope>
-    <description>radio button</description>
-    <tabTrigger>radio</tabTrigger>
+    <description>check box</description>
+    <tabTrigger>checkbox</tabTrigger>
 </snippet>
